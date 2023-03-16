@@ -18,9 +18,6 @@ export default {
             qty: 1
         }
     },
-    mounted() {
-        this.qtyCtrl = 1;
-    },
     props: ['pObj'],
     inject: ['doughtnutList','shoppingCart'],
     methods: {

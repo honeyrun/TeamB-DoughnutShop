@@ -7,6 +7,7 @@ class Doughnut {
         this.g_free = dObj.g_free;
         this.vegan = dObj.vegan;
         this.amount = (dObj.amount != null) ? dObj.amount : 0;
+        // this.amount = dObj.amount || 0;
     }
 
     calTotal() {
